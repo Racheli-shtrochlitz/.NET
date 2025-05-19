@@ -1,54 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "T:\\\u05D9\u05D3\\\u05E9\u05D1\u05D1\u05D9\u05DD\\C# \u05DE\u05EA\u05E7\u05D3\u05DD\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\DotNet2025_1357_7977\\",
+  "WorkspaceRootPath": "T:\\\u05D9\u05D3\\\u05E9\u05D1\u05D1\u05D9\u05DD\\C# \u05DE\u05EA\u05E7\u05D3\u05DD\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\github\\.NET\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{74C3D549-FBFC-439E-9B2F-9C1BCB82ECC5}|UI\\UI.csproj|t:\\\u05D9\u05D3\\\u05E9\u05D1\u05D1\u05D9\u05DD\\c# \u05DE\u05EA\u05E7\u05D3\u05DD\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\dotnet2025_1357_7977\\ui\\cashier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{74C3D549-FBFC-439E-9B2F-9C1BCB82ECC5}|UI\\UI.csproj|t:\\\u05D9\u05D3\\\u05E9\u05D1\u05D1\u05D9\u05DD\\c# \u05DE\u05EA\u05E7\u05D3\u05DD\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\github\\.net\\ui\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{74C3D549-FBFC-439E-9B2F-9C1BCB82ECC5}|UI\\UI.csproj|solutionrelative:ui\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74C3D549-FBFC-439E-9B2F-9C1BCB82ECC5}|UI\\UI.csproj|t:\\\u05D9\u05D3\\\u05E9\u05D1\u05D1\u05D9\u05DD\\c# \u05DE\u05EA\u05E7\u05D3\u05DD\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\github\\.net\\ui\\cashier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{74C3D549-FBFC-439E-9B2F-9C1BCB82ECC5}|UI\\UI.csproj|solutionrelative:ui\\cashier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74C3D549-FBFC-439E-9B2F-9C1BCB82ECC5}|UI\\UI.csproj|t:\\\u05D9\u05D3\\\u05E9\u05D1\u05D1\u05D9\u05DD\\c# \u05DE\u05EA\u05E7\u05D3\u05DD\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\dotnet2025_1357_7977\\ui\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74C3D549-FBFC-439E-9B2F-9C1BCB82ECC5}|UI\\UI.csproj|solutionrelative:ui\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74C3D549-FBFC-439E-9B2F-9C1BCB82ECC5}|UI\\UI.csproj|t:\\\u05D9\u05D3\\\u05E9\u05D1\u05D1\u05D9\u05DD\\c# \u05DE\u05EA\u05E7\u05D3\u05DD\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\dotnet2025_1357_7977\\ui\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{74C3D549-FBFC-439E-9B2F-9C1BCB82ECC5}|UI\\UI.csproj|solutionrelative:ui\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74C3D549-FBFC-439E-9B2F-9C1BCB82ECC5}|UI\\UI.csproj|t:\\\u05D9\u05D3\\\u05E9\u05D1\u05D1\u05D9\u05DD\\c# \u05DE\u05EA\u05E7\u05D3\u05DD\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\dotnet2025_1357_7977\\ui\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{74C3D549-FBFC-439E-9B2F-9C1BCB82ECC5}|UI\\UI.csproj|solutionrelative:ui\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74C3D549-FBFC-439E-9B2F-9C1BCB82ECC5}|UI\\UI.csproj|t:\\\u05D9\u05D3\\\u05E9\u05D1\u05D1\u05D9\u05DD\\c# \u05DE\u05EA\u05E7\u05D3\u05DD\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\dotnet2025_1357_7977\\ui\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74C3D549-FBFC-439E-9B2F-9C1BCB82ECC5}|UI\\UI.csproj|solutionrelative:ui\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74C3D549-FBFC-439E-9B2F-9C1BCB82ECC5}|UI\\UI.csproj|t:\\\u05D9\u05D3\\\u05E9\u05D1\u05D1\u05D9\u05DD\\c# \u05DE\u05EA\u05E7\u05D3\u05DD\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\dotnet2025_1357_7977\\ui\\cashier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{74C3D549-FBFC-439E-9B2F-9C1BCB82ECC5}|UI\\UI.csproj|t:\\\u05D9\u05D3\\\u05E9\u05D1\u05D1\u05D9\u05DD\\c# \u05DE\u05EA\u05E7\u05D3\u05DD\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\github\\.net\\ui\\cashier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{74C3D549-FBFC-439E-9B2F-9C1BCB82ECC5}|UI\\UI.csproj|solutionrelative:ui\\cashier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D991EC3C-4CAD-4326-A26B-E56994C3B9AC}|BL\\BL.csproj|t:\\\u05D9\u05D3\\\u05E9\u05D1\u05D1\u05D9\u05DD\\c# \u05DE\u05EA\u05E7\u05D3\u05DD\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\dotnet2025_1357_7977\\bl\\bo\\customer (2).cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D991EC3C-4CAD-4326-A26B-E56994C3B9AC}|BL\\BL.csproj|solutionrelative:bl\\bo\\customer (2).cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{74C3D549-FBFC-439E-9B2F-9C1BCB82ECC5}|UI\\UI.csproj|t:\\\u05D9\u05D3\\\u05E9\u05D1\u05D1\u05D9\u05DD\\c# \u05DE\u05EA\u05E7\u05D3\u05DD\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\github\\.net\\ui\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{74C3D549-FBFC-439E-9B2F-9C1BCB82ECC5}|UI\\UI.csproj|solutionrelative:ui\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74C3D549-FBFC-439E-9B2F-9C1BCB82ECC5}|UI\\UI.csproj|t:\\\u05D9\u05D3\\\u05E9\u05D1\u05D1\u05D9\u05DD\\c# \u05DE\u05EA\u05E7\u05D3\u05DD\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\dotnet2025_1357_7977\\ui\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74C3D549-FBFC-439E-9B2F-9C1BCB82ECC5}|UI\\UI.csproj|solutionrelative:ui\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{74C3D549-FBFC-439E-9B2F-9C1BCB82ECC5}|UI\\UI.csproj|t:\\\u05D9\u05D3\\\u05E9\u05D1\u05D1\u05D9\u05DD\\c# \u05DE\u05EA\u05E7\u05D3\u05DD\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\github\\.net\\ui\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{74C3D549-FBFC-439E-9B2F-9C1BCB82ECC5}|UI\\UI.csproj|solutionrelative:ui\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74C3D549-FBFC-439E-9B2F-9C1BCB82ECC5}|UI\\UI.csproj|t:\\\u05D9\u05D3\\\u05E9\u05D1\u05D1\u05D9\u05DD\\c# \u05DE\u05EA\u05E7\u05D3\u05DD\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\dotnet2025_1357_7977\\ui\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{74C3D549-FBFC-439E-9B2F-9C1BCB82ECC5}|UI\\UI.csproj|solutionrelative:ui\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74C3D549-FBFC-439E-9B2F-9C1BCB82ECC5}|UI\\UI.csproj|t:\\\u05D9\u05D3\\\u05E9\u05D1\u05D1\u05D9\u05DD\\c# \u05DE\u05EA\u05E7\u05D3\u05DD\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\dotnet2025_1357_7977\\ui\\producteditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74C3D549-FBFC-439E-9B2F-9C1BCB82ECC5}|UI\\UI.csproj|solutionrelative:ui\\producteditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74C3D549-FBFC-439E-9B2F-9C1BCB82ECC5}|UI\\UI.csproj|t:\\\u05D9\u05D3\\\u05E9\u05D1\u05D1\u05D9\u05DD\\c# \u05DE\u05EA\u05E7\u05D3\u05DD\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\dotnet2025_1357_7977\\ui\\producteditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{74C3D549-FBFC-439E-9B2F-9C1BCB82ECC5}|UI\\UI.csproj|solutionrelative:ui\\producteditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D991EC3C-4CAD-4326-A26B-E56994C3B9AC}|BL\\BL.csproj|t:\\\u05D9\u05D3\\\u05E9\u05D1\u05D1\u05D9\u05DD\\c# \u05DE\u05EA\u05E7\u05D3\u05DD\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\dotnet2025_1357_7977\\bl\\bo\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D991EC3C-4CAD-4326-A26B-E56994C3B9AC}|BL\\BL.csproj|solutionrelative:bl\\bo\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{74C3D549-FBFC-439E-9B2F-9C1BCB82ECC5}|UI\\UI.csproj|t:\\\u05D9\u05D3\\\u05E9\u05D1\u05D1\u05D9\u05DD\\c# \u05DE\u05EA\u05E7\u05D3\u05DD\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\github\\.net\\ui\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74C3D549-FBFC-439E-9B2F-9C1BCB82ECC5}|UI\\UI.csproj|solutionrelative:ui\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,157 +34,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Main.cs",
-              "DocumentMoniker": "T:\\\u05D9\u05D3\\\u05E9\u05D1\u05D1\u05D9\u05DD\\C# \u05DE\u05EA\u05E7\u05D3\u05DD\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\DotNet2025_1357_7977\\UI\\Main.cs",
-              "RelativeDocumentMoniker": "UI\\Main.cs",
-              "ToolTip": "T:\\\u05D9\u05D3\\\u05E9\u05D1\u05D1\u05D9\u05DD\\C# \u05DE\u05EA\u05E7\u05D3\u05DD\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\DotNet2025_1357_7977\\UI\\Main.cs",
-              "RelativeToolTip": "UI\\Main.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAA2wCUAAAA1AAAA",
+              "DocumentIndex": 0,
+              "Title": "LogIn.cs [Design]",
+              "DocumentMoniker": "T:\\\u05D9\u05D3\\\u05E9\u05D1\u05D1\u05D9\u05DD\\C# \u05DE\u05EA\u05E7\u05D3\u05DD\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\github\\.NET\\UI\\LogIn.cs",
+              "RelativeDocumentMoniker": "UI\\LogIn.cs",
+              "ToolTip": "T:\\\u05D9\u05D3\\\u05E9\u05D1\u05D1\u05D9\u05DD\\C# \u05DE\u05EA\u05E7\u05D3\u05DD\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\github\\.NET\\UI\\LogIn.cs [Design]",
+              "RelativeToolTip": "UI\\LogIn.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T13:43:03.369Z",
+              "WhenOpened": "2025-05-19T16:14:16.942Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Cashier.cs",
+              "DocumentMoniker": "T:\\\u05D9\u05D3\\\u05E9\u05D1\u05D1\u05D9\u05DD\\C# \u05DE\u05EA\u05E7\u05D3\u05DD\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\github\\.NET\\UI\\Cashier.cs",
+              "RelativeDocumentMoniker": "UI\\Cashier.cs",
+              "ToolTip": "T:\\\u05D9\u05D3\\\u05E9\u05D1\u05D1\u05D9\u05DD\\C# \u05DE\u05EA\u05E7\u05D3\u05DD\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\github\\.NET\\UI\\Cashier.cs",
+              "RelativeToolTip": "UI\\Cashier.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T16:08:08.502Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Main.cs [Design]",
-              "DocumentMoniker": "T:\\\u05D9\u05D3\\\u05E9\u05D1\u05D1\u05D9\u05DD\\C# \u05DE\u05EA\u05E7\u05D3\u05DD\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\DotNet2025_1357_7977\\UI\\Main.cs",
-              "RelativeDocumentMoniker": "UI\\Main.cs",
-              "ToolTip": "T:\\\u05D9\u05D3\\\u05E9\u05D1\u05D1\u05D9\u05DD\\C# \u05DE\u05EA\u05E7\u05D3\u05DD\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\DotNet2025_1357_7977\\UI\\Main.cs [Design]",
-              "RelativeToolTip": "UI\\Main.cs [Design]",
+              "Title": "Cashier.cs [Design]",
+              "DocumentMoniker": "T:\\\u05D9\u05D3\\\u05E9\u05D1\u05D1\u05D9\u05DD\\C# \u05DE\u05EA\u05E7\u05D3\u05DD\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\github\\.NET\\UI\\Cashier.cs",
+              "RelativeDocumentMoniker": "UI\\Cashier.cs",
+              "ToolTip": "T:\\\u05D9\u05D3\\\u05E9\u05D1\u05D1\u05D9\u05DD\\C# \u05DE\u05EA\u05E7\u05D3\u05DD\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\github\\.NET\\UI\\Cashier.cs [Design]",
+              "RelativeToolTip": "UI\\Cashier.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T13:43:00.077Z",
+              "WhenOpened": "2025-05-19T16:01:46.766Z",
               "EditorCaption": " [Design]"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Manager.cs",
-              "DocumentMoniker": "T:\\\u05D9\u05D3\\\u05E9\u05D1\u05D1\u05D9\u05DD\\C# \u05DE\u05EA\u05E7\u05D3\u05DD\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\DotNet2025_1357_7977\\UI\\Manager.cs",
-              "RelativeDocumentMoniker": "UI\\Manager.cs",
-              "ToolTip": "T:\\\u05D9\u05D3\\\u05E9\u05D1\u05D1\u05D9\u05DD\\C# \u05DE\u05EA\u05E7\u05D3\u05DD\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\DotNet2025_1357_7977\\UI\\Manager.cs",
-              "RelativeToolTip": "UI\\Manager.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAgwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T13:42:37.814Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Manager.cs [Design]",
-              "DocumentMoniker": "T:\\\u05D9\u05D3\\\u05E9\u05D1\u05D1\u05D9\u05DD\\C# \u05DE\u05EA\u05E7\u05D3\u05DD\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\DotNet2025_1357_7977\\UI\\Manager.cs",
-              "RelativeDocumentMoniker": "UI\\Manager.cs",
-              "ToolTip": "T:\\\u05D9\u05D3\\\u05E9\u05D1\u05D1\u05D9\u05DD\\C# \u05DE\u05EA\u05E7\u05D3\u05DD\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\DotNet2025_1357_7977\\UI\\Manager.cs [Design]",
-              "RelativeToolTip": "UI\\Manager.cs [Design]",
+              "Title": "Customer.cs [Design]",
+              "DocumentMoniker": "T:\\\u05D9\u05D3\\\u05E9\u05D1\u05D1\u05D9\u05DD\\C# \u05DE\u05EA\u05E7\u05D3\u05DD\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\github\\.NET\\UI\\Customer.cs",
+              "RelativeDocumentMoniker": "UI\\Customer.cs",
+              "ToolTip": "T:\\\u05D9\u05D3\\\u05E9\u05D1\u05D1\u05D9\u05DD\\C# \u05DE\u05EA\u05E7\u05D3\u05DD\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\github\\.NET\\UI\\Customer.cs [Design]",
+              "RelativeToolTip": "UI\\Customer.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T13:42:34.993Z",
+              "WhenOpened": "2025-05-19T15:54:39.201Z",
               "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Customer (2).cs",
-              "DocumentMoniker": "T:\\\u05D9\u05D3\\\u05E9\u05D1\u05D1\u05D9\u05DD\\C# \u05DE\u05EA\u05E7\u05D3\u05DD\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\DotNet2025_1357_7977\\BL\\BO\\Customer (2).cs",
-              "RelativeDocumentMoniker": "BL\\BO\\Customer (2).cs",
-              "ToolTip": "T:\\\u05D9\u05D3\\\u05E9\u05D1\u05D1\u05D9\u05DD\\C# \u05DE\u05EA\u05E7\u05D3\u05DD\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\DotNet2025_1357_7977\\BL\\BO\\Customer (2).cs",
-              "RelativeToolTip": "BL\\BO\\Customer (2).cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T13:03:13.334Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Product.cs",
-              "DocumentMoniker": "T:\\\u05D9\u05D3\\\u05E9\u05D1\u05D1\u05D9\u05DD\\C# \u05DE\u05EA\u05E7\u05D3\u05DD\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\DotNet2025_1357_7977\\UI\\Product.cs",
-              "RelativeDocumentMoniker": "UI\\Product.cs",
-              "ToolTip": "T:\\\u05D9\u05D3\\\u05E9\u05D1\u05D1\u05D9\u05DD\\C# \u05DE\u05EA\u05E7\u05D3\u05DD\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\DotNet2025_1357_7977\\UI\\Product.cs",
-              "RelativeToolTip": "UI\\Product.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAACUAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T11:20:22.43Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Product.cs [Design]",
-              "DocumentMoniker": "T:\\\u05D9\u05D3\\\u05E9\u05D1\u05D1\u05D9\u05DD\\C# \u05DE\u05EA\u05E7\u05D3\u05DD\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\DotNet2025_1357_7977\\UI\\Product.cs",
-              "RelativeDocumentMoniker": "UI\\Product.cs",
-              "ToolTip": "T:\\\u05D9\u05D3\\\u05E9\u05D1\u05D1\u05D9\u05DD\\C# \u05DE\u05EA\u05E7\u05D3\u05DD\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\DotNet2025_1357_7977\\UI\\Product.cs [Design]",
-              "RelativeToolTip": "UI\\Product.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T11:20:19.618Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ProductEditor.cs",
-              "DocumentMoniker": "T:\\\u05D9\u05D3\\\u05E9\u05D1\u05D1\u05D9\u05DD\\C# \u05DE\u05EA\u05E7\u05D3\u05DD\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\DotNet2025_1357_7977\\UI\\ProductEditor.cs",
-              "RelativeDocumentMoniker": "UI\\ProductEditor.cs",
-              "ToolTip": "T:\\\u05D9\u05D3\\\u05E9\u05D1\u05D1\u05D9\u05DD\\C# \u05DE\u05EA\u05E7\u05D3\u05DD\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\DotNet2025_1357_7977\\UI\\ProductEditor.cs",
-              "RelativeToolTip": "UI\\ProductEditor.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAIBJwBUAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T11:19:50.63Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ProductEditor.cs [Design]",
-              "DocumentMoniker": "T:\\\u05D9\u05D3\\\u05E9\u05D1\u05D1\u05D9\u05DD\\C# \u05DE\u05EA\u05E7\u05D3\u05DD\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\DotNet2025_1357_7977\\UI\\ProductEditor.cs",
-              "RelativeDocumentMoniker": "UI\\ProductEditor.cs",
-              "ToolTip": "T:\\\u05D9\u05D3\\\u05E9\u05D1\u05D1\u05D9\u05DD\\C# \u05DE\u05EA\u05E7\u05D3\u05DD\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\DotNet2025_1357_7977\\UI\\ProductEditor.cs [Design]",
-              "RelativeToolTip": "UI\\ProductEditor.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T11:19:48.176Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Order.cs",
-              "DocumentMoniker": "T:\\\u05D9\u05D3\\\u05E9\u05D1\u05D1\u05D9\u05DD\\C# \u05DE\u05EA\u05E7\u05D3\u05DD\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\DotNet2025_1357_7977\\BL\\BO\\Order.cs",
-              "RelativeDocumentMoniker": "BL\\BO\\Order.cs",
-              "ToolTip": "T:\\\u05D9\u05D3\\\u05E9\u05D1\u05D1\u05D9\u05DD\\C# \u05DE\u05EA\u05E7\u05D3\u05DD\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\DotNet2025_1357_7977\\BL\\BO\\Order.cs",
-              "RelativeToolTip": "BL\\BO\\Order.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T11:12:49.603Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Cashier.cs",
-              "DocumentMoniker": "T:\\\u05D9\u05D3\\\u05E9\u05D1\u05D1\u05D9\u05DD\\C# \u05DE\u05EA\u05E7\u05D3\u05DD\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\DotNet2025_1357_7977\\UI\\Cashier.cs",
-              "RelativeDocumentMoniker": "UI\\Cashier.cs",
-              "ToolTip": "T:\\\u05D9\u05D3\\\u05E9\u05D1\u05D1\u05D9\u05DD\\C# \u05DE\u05EA\u05E7\u05D3\u05DD\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\DotNet2025_1357_7977\\UI\\Cashier.cs",
-              "RelativeToolTip": "UI\\Cashier.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAYwB0AAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T11:05:40.68Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Cashier.cs [Design]",
-              "DocumentMoniker": "T:\\\u05D9\u05D3\\\u05E9\u05D1\u05D1\u05D9\u05DD\\C# \u05DE\u05EA\u05E7\u05D3\u05DD\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\DotNet2025_1357_7977\\UI\\Cashier.cs",
-              "RelativeDocumentMoniker": "UI\\Cashier.cs",
-              "ToolTip": "T:\\\u05D9\u05D3\\\u05E9\u05D1\u05D1\u05D9\u05DD\\C# \u05DE\u05EA\u05E7\u05D3\u05DD\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\DotNet2025_1357_7977\\UI\\Cashier.cs [Design]",
-              "RelativeToolTip": "UI\\Cashier.cs [Design]",
+              "Title": "Manager.cs",
+              "DocumentMoniker": "T:\\\u05D9\u05D3\\\u05E9\u05D1\u05D1\u05D9\u05DD\\C# \u05DE\u05EA\u05E7\u05D3\u05DD\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\github\\.NET\\UI\\Manager.cs",
+              "RelativeDocumentMoniker": "UI\\Manager.cs",
+              "ToolTip": "T:\\\u05D9\u05D3\\\u05E9\u05D1\u05D1\u05D9\u05DD\\C# \u05DE\u05EA\u05E7\u05D3\u05DD\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\github\\.NET\\UI\\Manager.cs",
+              "RelativeToolTip": "UI\\Manager.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAYwCkAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T10:55:39.361Z",
+              "WhenOpened": "2025-05-19T15:52:10.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Manager.cs [Design]",
+              "DocumentMoniker": "T:\\\u05D9\u05D3\\\u05E9\u05D1\u05D1\u05D9\u05DD\\C# \u05DE\u05EA\u05E7\u05D3\u05DD\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\github\\.NET\\UI\\Manager.cs",
+              "RelativeDocumentMoniker": "UI\\Manager.cs",
+              "ToolTip": "T:\\\u05D9\u05D3\\\u05E9\u05D1\u05D1\u05D9\u05DD\\C# \u05DE\u05EA\u05E7\u05D3\u05DD\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\\u05E9\u05E8\u05D9 \u05D2\u05E8\u05E9\u05D5\u05E0\u05D9 \u05D5\u05E8\u05D7\u05DC\u05D9 \u05E9\u05D8\u05E8\u05D5\u05DB\u05DC\u05D9\u05E5\\github\\.NET\\UI\\Manager.cs [Design]",
+              "RelativeToolTip": "UI\\Manager.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T15:52:02.429Z",
               "EditorCaption": " [Design]"
             }
           ]

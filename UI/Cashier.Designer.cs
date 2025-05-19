@@ -38,7 +38,6 @@
             label4 = new Label();
             amountInput = new NumericUpDown();
             doOrderBtn = new Button();
-            clubMemberInput = new CheckBox();
             productBindingSource = new BindingSource(components);
             productsGrid = new DataGridView();
             idDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
@@ -54,6 +53,13 @@
             originPriceDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             countDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             finalPriceDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
+            label5 = new Label();
+            label6 = new Label();
+            dataGridView1 = new DataGridView();
+            saleInProductBindingSource = new BindingSource(components);
+            idDataGridViewTextBoxColumn2 = new DataGridViewTextBoxColumn();
+            isForClubDataGridViewCheckBoxColumn = new DataGridViewCheckBoxColumn();
+            saleBindingSource = new BindingSource(components);
             ((System.ComponentModel.ISupportInitialize)addProductInput).BeginInit();
             ((System.ComponentModel.ISupportInitialize)amountInput).BeginInit();
             ((System.ComponentModel.ISupportInitialize)productBindingSource).BeginInit();
@@ -61,14 +67,17 @@
             ((System.ComponentModel.ISupportInitialize)productInOrderBindingSource).BeginInit();
             ((System.ComponentModel.ISupportInitialize)productInOrderBindingSource1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)productsInOrderGrid).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)saleInProductBindingSource).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)saleBindingSource).BeginInit();
             SuspendLayout();
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(442, 515);
+            label1.Location = new Point(360, 353);
             label1.Name = "label1";
-            label1.Size = new Size(79, 20);
+            label1.Size = new Size(61, 15);
             label1.TabIndex = 0;
             label1.Text = "Total price";
             label1.Click += label1_Click;
@@ -76,18 +85,17 @@
             // totalPrice
             // 
             totalPrice.AutoSize = true;
-            totalPrice.Location = new Point(465, 555);
+            totalPrice.Location = new Point(384, 377);
             totalPrice.Name = "totalPrice";
-            totalPrice.Size = new Size(17, 20);
+            totalPrice.Size = new Size(13, 15);
             totalPrice.TabIndex = 3;
             totalPrice.Text = "0";
             // 
             // addProductBtn
             // 
-            addProductBtn.Location = new Point(212, 468);
-            addProductBtn.Margin = new Padding(3, 4, 3, 4);
+            addProductBtn.Location = new Point(77, 367);
             addProductBtn.Name = "addProductBtn";
-            addProductBtn.Size = new Size(169, 47);
+            addProductBtn.Size = new Size(148, 35);
             addProductBtn.TabIndex = 4;
             addProductBtn.Text = "Add product";
             addProductBtn.UseVisualStyleBackColor = true;
@@ -95,12 +103,11 @@
             // 
             // addProductInput
             // 
-            addProductInput.Location = new Point(222, 117);
-            addProductInput.Margin = new Padding(3, 4, 3, 4);
+            addProductInput.Location = new Point(194, 88);
             addProductInput.Maximum = new decimal(new int[] { 1000000, 0, 0, 0 });
             addProductInput.Minimum = new decimal(new int[] { 10, 0, 0, 0 });
             addProductInput.Name = "addProductInput";
-            addProductInput.Size = new Size(137, 27);
+            addProductInput.Size = new Size(120, 23);
             addProductInput.TabIndex = 5;
             addProductInput.Value = new decimal(new int[] { 1000, 0, 0, 0 });
             addProductInput.ValueChanged += addProductInput_ValueChanged;
@@ -109,56 +116,47 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 16.2F, FontStyle.Regular, GraphicsUnit.Point);
-            label2.Location = new Point(329, 23);
+            label2.Location = new Point(326, 18);
             label2.Name = "label2";
-            label2.Size = new Size(195, 38);
+            label2.Size = new Size(152, 30);
             label2.TabIndex = 7;
             label2.Text = "Place an order";
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(46, 384);
+            label3.Location = new Point(90, 295);
             label3.Name = "label3";
-            label3.Size = new Size(111, 20);
+            label3.Size = new Size(90, 15);
             label3.TabIndex = 8;
             label3.Text = "choose amount";
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(68, 79);
+            label4.Location = new Point(60, 59);
             label4.Name = "label4";
-            label4.Size = new Size(291, 20);
+            label4.Size = new Size(232, 15);
             label4.TabIndex = 9;
             label4.Text = "Insert product code or choose from the list";
             // 
             // amountInput
             // 
-            amountInput.Location = new Point(46, 416);
+            amountInput.Location = new Point(77, 323);
+            amountInput.Margin = new Padding(3, 2, 3, 2);
             amountInput.Name = "amountInput";
-            amountInput.Size = new Size(150, 27);
+            amountInput.Size = new Size(131, 23);
             amountInput.TabIndex = 10;
             // 
             // doOrderBtn
             // 
-            doOrderBtn.Location = new Point(648, 529);
+            doOrderBtn.Location = new Point(605, 364);
+            doOrderBtn.Margin = new Padding(3, 2, 3, 2);
             doOrderBtn.Name = "doOrderBtn";
-            doOrderBtn.Size = new Size(127, 37);
+            doOrderBtn.Size = new Size(111, 28);
             doOrderBtn.TabIndex = 11;
             doOrderBtn.Text = "Do order";
             doOrderBtn.UseVisualStyleBackColor = true;
-            // 
-            // clubMemberInput
-            // 
-            clubMemberInput.AutoSize = true;
-            clubMemberInput.Location = new Point(29, 23);
-            clubMemberInput.Name = "clubMemberInput";
-            clubMemberInput.RightToLeft = RightToLeft.No;
-            clubMemberInput.Size = new Size(119, 24);
-            clubMemberInput.TabIndex = 13;
-            clubMemberInput.Text = "club member";
-            clubMemberInput.UseVisualStyleBackColor = true;
             // 
             // productBindingSource
             // 
@@ -170,11 +168,12 @@
             productsGrid.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             productsGrid.Columns.AddRange(new DataGridViewColumn[] { idDataGridViewTextBoxColumn, nameDataGridViewTextBoxColumn, categoryDataGridViewTextBoxColumn, priceDataGridViewTextBoxColumn, amountDataGridViewTextBoxColumn });
             productsGrid.DataSource = productBindingSource;
-            productsGrid.Location = new Point(68, 171);
+            productsGrid.Location = new Point(60, 128);
+            productsGrid.Margin = new Padding(3, 2, 3, 2);
             productsGrid.Name = "productsGrid";
             productsGrid.RowHeadersWidth = 51;
             productsGrid.RowTemplate.Height = 29;
-            productsGrid.Size = new Size(300, 188);
+            productsGrid.Size = new Size(262, 141);
             productsGrid.TabIndex = 0;
             productsGrid.SelectionChanged += productsGrid_SelectionChanged;
             // 
@@ -232,11 +231,12 @@
             productsInOrderGrid.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             productsInOrderGrid.Columns.AddRange(new DataGridViewColumn[] { idDataGridViewTextBoxColumn1, productNameDataGridViewTextBoxColumn, originPriceDataGridViewTextBoxColumn, countDataGridViewTextBoxColumn, finalPriceDataGridViewTextBoxColumn });
             productsInOrderGrid.DataSource = productInOrderBindingSource;
-            productsInOrderGrid.Location = new Point(517, 171);
+            productsInOrderGrid.Location = new Point(360, 102);
+            productsInOrderGrid.Margin = new Padding(3, 2, 3, 2);
             productsInOrderGrid.Name = "productsInOrderGrid";
             productsInOrderGrid.RowHeadersWidth = 51;
             productsInOrderGrid.RowTemplate.Height = 29;
-            productsInOrderGrid.Size = new Size(300, 188);
+            productsInOrderGrid.Size = new Size(196, 214);
             productsInOrderGrid.TabIndex = 14;
             productsInOrderGrid.SelectionChanged += productsInOrderGrid_SelectionChanged;
             // 
@@ -280,14 +280,67 @@
             finalPriceDataGridViewTextBoxColumn.Name = "finalPriceDataGridViewTextBoxColumn";
             finalPriceDataGridViewTextBoxColumn.Width = 125;
             // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Location = new Point(398, 84);
+            label5.Name = "label5";
+            label5.Size = new Size(98, 15);
+            label5.TabIndex = 15;
+            label5.Text = "Products in order";
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Location = new Point(618, 84);
+            label6.Name = "label6";
+            label6.Size = new Size(76, 15);
+            label6.TabIndex = 16;
+            label6.Text = "sales in order";
+            // 
+            // dataGridView1
+            // 
+            dataGridView1.AutoGenerateColumns = false;
+            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { idDataGridViewTextBoxColumn2, isForClubDataGridViewCheckBoxColumn });
+            dataGridView1.DataSource = saleBindingSource;
+            dataGridView1.Location = new Point(589, 102);
+            dataGridView1.Name = "dataGridView1";
+            dataGridView1.RowTemplate.Height = 25;
+            dataGridView1.Size = new Size(160, 214);
+            dataGridView1.TabIndex = 17;
+            dataGridView1.CellContentClick += dataGridView1_CellContentClick;
+            // 
+            // saleInProductBindingSource
+            // 
+            saleInProductBindingSource.DataSource = typeof(BO.SaleInProduct);
+            // 
+            // idDataGridViewTextBoxColumn2
+            // 
+            idDataGridViewTextBoxColumn2.DataPropertyName = "Id";
+            idDataGridViewTextBoxColumn2.HeaderText = "Id";
+            idDataGridViewTextBoxColumn2.Name = "idDataGridViewTextBoxColumn2";
+            // 
+            // isForClubDataGridViewCheckBoxColumn
+            // 
+            isForClubDataGridViewCheckBoxColumn.DataPropertyName = "IsForClub";
+            isForClubDataGridViewCheckBoxColumn.HeaderText = "IsForClub";
+            isForClubDataGridViewCheckBoxColumn.Name = "isForClubDataGridViewCheckBoxColumn";
+            // 
+            // saleBindingSource
+            // 
+            saleBindingSource.DataSource = typeof(BO.Sale);
+            // 
             // Cashier
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(914, 600);
+            ClientSize = new Size(800, 450);
+            Controls.Add(dataGridView1);
+            Controls.Add(label6);
+            Controls.Add(label5);
             Controls.Add(productsInOrderGrid);
             Controls.Add(productsGrid);
-            Controls.Add(clubMemberInput);
             Controls.Add(doOrderBtn);
             Controls.Add(amountInput);
             Controls.Add(label4);
@@ -297,7 +350,6 @@
             Controls.Add(addProductBtn);
             Controls.Add(totalPrice);
             Controls.Add(label1);
-            Margin = new Padding(3, 4, 3, 4);
             Name = "Cashier";
             ((System.ComponentModel.ISupportInitialize)addProductInput).EndInit();
             ((System.ComponentModel.ISupportInitialize)amountInput).EndInit();
@@ -306,6 +358,9 @@
             ((System.ComponentModel.ISupportInitialize)productInOrderBindingSource).EndInit();
             ((System.ComponentModel.ISupportInitialize)productInOrderBindingSource1).EndInit();
             ((System.ComponentModel.ISupportInitialize)productsInOrderGrid).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)saleInProductBindingSource).EndInit();
+            ((System.ComponentModel.ISupportInitialize)saleBindingSource).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -321,7 +376,6 @@
         private Label label4;
         private NumericUpDown amountInput;
         private Button doOrderBtn;
-        private CheckBox clubMemberInput;
         private BindingSource productBindingSource;
         private DataGridView productsGrid;
         private DataGridViewTextBoxColumn idDataGridViewTextBoxColumn;
@@ -337,5 +391,12 @@
         private DataGridViewTextBoxColumn originPriceDataGridViewTextBoxColumn;
         private DataGridViewTextBoxColumn countDataGridViewTextBoxColumn;
         private DataGridViewTextBoxColumn finalPriceDataGridViewTextBoxColumn;
+        private Label label5;
+        private Label label6;
+        private DataGridView dataGridView1;
+        private DataGridViewTextBoxColumn idDataGridViewTextBoxColumn2;
+        private DataGridViewCheckBoxColumn isForClubDataGridViewCheckBoxColumn;
+        private BindingSource saleBindingSource;
+        private BindingSource saleInProductBindingSource;
     }
 }

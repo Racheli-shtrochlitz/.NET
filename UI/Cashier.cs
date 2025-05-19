@@ -16,7 +16,7 @@ namespace UI
         private IOrder _order = BlApi.Factory.Get.Order;
         IProduct _product = BlApi.Factory.Get.Product;
         BO.Order order;
-        public Cashier()
+        public Cashier(bool isForClub)
         {
             InitializeComponent();
             productsGrid.DataSource = _product.ReadAll();
@@ -88,6 +88,11 @@ namespace UI
         private void productsInOrderGrid_SelectionChanged(object sender, EventArgs e)
         {
             addProductInput.Value = ((BO.Product)productsGrid.CurrentRow.DataBoundItem).Id;
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }
