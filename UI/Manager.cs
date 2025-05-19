@@ -48,5 +48,11 @@ namespace UI
         {
             throw new NotImplementedException();
         }
+
+        private void Customers_Click(object sender, EventArgs e)
+        {
+            Customer customer = new Customer();
+            customer.Show();
+        }
     }
 }

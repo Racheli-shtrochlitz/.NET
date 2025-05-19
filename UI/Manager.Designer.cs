@@ -37,18 +37,19 @@
             // selectCategory
             // 
             selectCategory.AutoSize = true;
-            selectCategory.Location = new Point(357, 166);
+            selectCategory.Location = new Point(408, 221);
             selectCategory.Name = "selectCategory";
-            selectCategory.Size = new Size(89, 15);
+            selectCategory.Size = new Size(113, 20);
             selectCategory.TabIndex = 0;
             selectCategory.Text = "Select Category";
             selectCategory.Click += label1_Click;
             // 
             // Products
             // 
-            Products.Location = new Point(259, 208);
+            Products.Location = new Point(296, 277);
+            Products.Margin = new Padding(3, 4, 3, 4);
             Products.Name = "Products";
-            Products.Size = new Size(75, 23);
+            Products.Size = new Size(86, 31);
             Products.TabIndex = 1;
             Products.Text = "Products";
             Products.UseVisualStyleBackColor = true;
@@ -56,9 +57,10 @@
             // 
             // Sales
             // 
-            Sales.Location = new Point(357, 208);
+            Sales.Location = new Point(408, 277);
+            Sales.Margin = new Padding(3, 4, 3, 4);
             Sales.Name = "Sales";
-            Sales.Size = new Size(75, 23);
+            Sales.Size = new Size(86, 31);
             Sales.TabIndex = 2;
             Sales.Text = "Sales";
             Sales.UseVisualStyleBackColor = true;
@@ -66,22 +68,25 @@
             // 
             // Customers
             // 
-            Customers.Location = new Point(476, 208);
+            Customers.Location = new Point(544, 277);
+            Customers.Margin = new Padding(3, 4, 3, 4);
             Customers.Name = "Customers";
-            Customers.Size = new Size(75, 23);
+            Customers.Size = new Size(86, 31);
             Customers.TabIndex = 3;
             Customers.Text = "Customers";
             Customers.UseVisualStyleBackColor = true;
+            Customers.Click += Customers_Click;
             // 
             // Manager
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(914, 600);
             Controls.Add(Customers);
             Controls.Add(Sales);
             Controls.Add(Products);
             Controls.Add(selectCategory);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "Manager";
             Text = "Manager";
             Load += Manager_Load;
