@@ -28,80 +28,112 @@
         /// </summary>
         private void InitializeComponent()
         {
-            tabControl1 = new TabControl();
+            customerTable = new TabControl();
             tabPage1 = new TabPage();
-            button1 = new Button();
-            button2 = new Button();
-            button3 = new Button();
-            tabControl1.SuspendLayout();
+            idFilter = new ComboBox();
+            deleteBtn = new Button();
+            updateBtn = new Button();
+            addBtn = new Button();
+            filterLable = new Label();
+            customerTable.SuspendLayout();
             SuspendLayout();
             // 
-            // tabControl1
+            // customerTable
             // 
-            tabControl1.Controls.Add(tabPage1);
-            tabControl1.Location = new Point(270, 175);
-            tabControl1.Margin = new Padding(3, 4, 3, 4);
-            tabControl1.Name = "tabControl1";
-            tabControl1.SelectedIndex = 0;
-            tabControl1.Size = new Size(594, 369);
-            tabControl1.TabIndex = 0;
+            customerTable.AccessibleRole = AccessibleRole.None;
+            customerTable.Appearance = TabAppearance.Buttons;
+            customerTable.Controls.Add(tabPage1);
+            customerTable.HotTrack = true;
+            customerTable.Location = new Point(354, 219);
+            customerTable.Name = "customerTable";
+            customerTable.SelectedIndex = 0;
+            customerTable.Size = new Size(493, 304);
+            customerTable.TabIndex = 4;
             // 
             // tabPage1
             // 
-            tabPage1.Location = new Point(4, 29);
+            tabPage1.Location = new Point(4, 32);
             tabPage1.Name = "tabPage1";
-            tabPage1.Size = new Size(586, 336);
+            tabPage1.Padding = new Padding(3);
+            tabPage1.Size = new Size(485, 268);
             tabPage1.TabIndex = 0;
             tabPage1.Text = "All customers";
             tabPage1.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // idFilter
             // 
-            button1.Location = new Point(42, 466);
-            button1.Name = "button1";
-            button1.Size = new Size(174, 74);
-            button1.TabIndex = 1;
-            button1.UseVisualStyleBackColor = true;
+            idFilter.FormattingEnabled = true;
+            idFilter.Location = new Point(696, 160);
+            idFilter.Name = "idFilter";
+            idFilter.Size = new Size(151, 28);
+            idFilter.TabIndex = 5;
+            idFilter.SelectedIndexChanged += idFilter_SelectedIndexChanged;
             // 
-            // button2
+            // deleteBtn
             // 
-            button2.Location = new Point(42, 204);
-            button2.Name = "button2";
-            button2.Size = new Size(174, 74);
-            button2.TabIndex = 2;
-            button2.UseVisualStyleBackColor = true;
-            button2.Click += button2_Click;
+            deleteBtn.Location = new Point(71, 449);
+            deleteBtn.Name = "deleteBtn";
+            deleteBtn.Size = new Size(161, 70);
+            deleteBtn.TabIndex = 6;
+            deleteBtn.Text = "Delete";
+            deleteBtn.UseVisualStyleBackColor = true;
+            deleteBtn.Click += deleteBtn_Click;
             // 
-            // button3
+            // updateBtn
             // 
-            button3.Location = new Point(42, 334);
-            button3.Name = "button3";
-            button3.Size = new Size(174, 74);
-            button3.TabIndex = 3;
-            button3.UseVisualStyleBackColor = true;
+            updateBtn.Location = new Point(71, 347);
+            updateBtn.Name = "updateBtn";
+            updateBtn.Size = new Size(161, 70);
+            updateBtn.TabIndex = 7;
+            updateBtn.Text = "Update";
+            updateBtn.UseVisualStyleBackColor = true;
+            updateBtn.Click += updateBtn_Click;
+            // 
+            // addBtn
+            // 
+            addBtn.Location = new Point(71, 251);
+            addBtn.Name = "addBtn";
+            addBtn.Size = new Size(161, 70);
+            addBtn.TabIndex = 8;
+            addBtn.Text = "Add";
+            addBtn.UseVisualStyleBackColor = true;
+            addBtn.Click += addBtn_Click;
+            // 
+            // filterLable
+            // 
+            filterLable.AutoSize = true;
+            filterLable.Location = new Point(727, 106);
+            filterLable.Name = "filterLable";
+            filterLable.Size = new Size(79, 20);
+            filterLable.TabIndex = 9;
+            filterLable.Text = "Filter by id";
             // 
             // Customer
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(914, 600);
-            Controls.Add(button3);
-            Controls.Add(button2);
-            Controls.Add(button1);
-            Controls.Add(tabControl1);
+            Controls.Add(filterLable);
+            Controls.Add(addBtn);
+            Controls.Add(updateBtn);
+            Controls.Add(deleteBtn);
+            Controls.Add(idFilter);
+            Controls.Add(customerTable);
             Margin = new Padding(3, 4, 3, 4);
             Name = "Customer";
             Text = "Customer";
-            tabControl1.ResumeLayout(false);
+            customerTable.ResumeLayout(false);
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
-
-        private TabControl tabControl1;
+        private TabControl customerTable;
         private TabPage tabPage1;
-        private Button button1;
-        private Button button2;
-        private Button button3;
+        private ComboBox idFilter;
+        private Button deleteBtn;
+        private Button updateBtn;
+        private Button addBtn;
+        private Label filterLable;
     }
 }
