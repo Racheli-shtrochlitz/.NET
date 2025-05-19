@@ -46,15 +46,8 @@ namespace UI
 
         private void categoryFilter_SelectedIndexChanged(object sender, EventArgs e)
         {
-            var grid = new DataGridView
-            {
-                Dock = DockStyle.Fill,
-                AutoGenerateColumns = true,
-                ReadOnly = true,
-                DataSource = _product.ReadAll(p => p.Category.ToString() == categoryFilter.SelectedItem.ToString())
-            };
-            tabPage1.Controls.Clear();
-            tabPage1.Controls.Add(grid);
+            grid.DataSource = null;
+            grid.DataSource = _product.ReadAll(p => p.Category.ToString() == categoryFilter.SelectedItem.ToString());
 
         }
 
@@ -78,13 +71,27 @@ namespace UI
 
 
             if (grid.CurrentRow == null || grid.CurrentRow.DataBoundItem == null)
-                MessageBox.Show("Please select product");
+                MessageBox.Show("Please select product first");
             else
             {
+                var result = MessageBox.Show("Are you sure you want to delete this sale?", 
+                             "Confirm Delete", 
+                             MessageBoxButtons.YesNo, 
+                             MessageBoxIcon.Question);
+                if (result != DialogResult.Yes)
+                    return;
                 BO.Product selectedProduct = (BO.Product)grid.CurrentRow.DataBoundItem;
                 _product.Delete(selectedProduct.Id);
-                grid.DataSource = _product.ReadAll();
-                grid.Refresh();
+                if (categoryFilter.SelectedItem != null)
+                {
+                    grid.DataSource = null;
+                    grid.DataSource = _product.ReadAll(p => p.Category.ToString() == categoryFilter.SelectedItem.ToString());
+                }
+                else
+                {
+                    grid.DataSource = null;
+                    grid.DataSource = _product.ReadAll();
+                }
             }
         }
 
@@ -98,17 +105,29 @@ namespace UI
 
         private void UpdateDetails(object? sender, FormClosedEventArgs e)
         {
-            grid.DataSource = _product.ReadAll();
-            grid.Refresh();
+            if (categoryFilter.SelectedItem != null)
+            {
+                grid.DataSource = null;
+                grid.DataSource = _product.ReadAll(p => p.Category.ToString() == categoryFilter.SelectedItem.ToString());
+            }
+            else
+            {
+                grid.DataSource = null;
+                grid.DataSource = _product.ReadAll();
+            }
+
         }
 
         private void updateBtn_Click_1(object sender, EventArgs e)
         {
+            if (grid.CurrentRow == null || grid.CurrentRow.DataBoundItem == null)
+            {
+                MessageBox.Show("Please select a product first.");
+                return;
+            }
             ProductEditor p = new ProductEditor("UPDATE", (BO.Product)grid.CurrentRow.DataBoundItem);
             p.Show();
             p.FormClosed += UpdateDetails;
-            grid.DataSource = _product.ReadAll();
-            grid.Refresh();
         }
     }
 }
