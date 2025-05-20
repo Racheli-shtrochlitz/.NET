@@ -55,7 +55,14 @@ namespace UI
                 Address = addressInput.Text,
                 Phone = phoneInput.Text
             };
-            _customer.Create(customer);
+            try
+            {
+                _customer.Create(customer);
+            }
+            catch
+            {
+                MessageBox.Show("customer exsits");
+            }
         }
         private void UpdateProduct()
         {

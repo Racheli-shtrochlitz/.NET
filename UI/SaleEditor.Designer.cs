@@ -111,6 +111,7 @@
             // productIdInput
             // 
             productIdInput.Location = new Point(410, 101);
+            productIdInput.Maximum = new decimal(new int[] { 1000000, 0, 0, 0 });
             productIdInput.Name = "productIdInput";
             productIdInput.Size = new Size(150, 27);
             productIdInput.TabIndex = 25;

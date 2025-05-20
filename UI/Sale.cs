@@ -23,7 +23,7 @@ namespace UI
                 Dock = DockStyle.Fill,
                 AutoGenerateColumns = true,
                 ReadOnly = true,
-                DataSource = _sale.ReadAll()
+                DataSource = _sale.ReadAll().OrderBy(p => p.Id).ToList()
             };
 
             tabPage1.Controls.Add(grid);
@@ -71,7 +71,7 @@ namespace UI
         public void updateForm()
         {
             grid.DataSource = null;
-            grid.DataSource = _sale.ReadAll(s => s.IsForClub || !checkBox1.Checked);
+            grid.DataSource = _sale.ReadAll(s => s.IsForClub || !checkBox1.Checked).OrderBy(p => p.Id).ToList();
         }
 
         private void addBtn_Click(object sender, EventArgs e)

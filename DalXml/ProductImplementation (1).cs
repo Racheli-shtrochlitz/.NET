@@ -45,7 +45,7 @@ internal class ProductImplementation : IProduct
     public void Delete(int id)
     {
         products = LoadArray();
-        products.Remove(Read(id));
+        products.RemoveAll(c => c.Id == id);
         using (StreamWriter fileStream = new StreamWriter(filePath))
         {
             xmlSerializer.Serialize(fileStream, products);
@@ -74,7 +74,9 @@ internal class ProductImplementation : IProduct
 
     public List<Product?> ReadAll(Func<Product, bool>? filter = null)
     {
-        return LoadArray().Where(filter).ToList();
+        if (filter != null)
+            return LoadArray().Where(filter).ToList();
+        return LoadArray();
     }
 
     public void Update(Product item)
@@ -83,6 +85,7 @@ internal class ProductImplementation : IProduct
         products = LoadArray();
         Product product = products.FirstOrDefault(c => c.Id == item.Id);
         Delete(product.Id);
+        products.Remove(product);
         products.Add(item);
         using (StreamWriter fileStream = new StreamWriter(filePath))
         {

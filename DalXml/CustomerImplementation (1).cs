@@ -49,11 +49,12 @@ internal class CustomerImplementation : ICustomer
     public void Delete(int id)
     {
         customers = LoadArray();
-        customers.Remove(Read(id));
+        customers.RemoveAll(c=>c.Id==id);
         using (StreamWriter fileStream = new StreamWriter(filePath))
         {
             xmlSerializer.Serialize(fileStream, customers);
         }
+
     }
 
     public Customer? Read(int id)
@@ -78,7 +79,9 @@ internal class CustomerImplementation : ICustomer
 
     public List<Customer?> ReadAll(Func<Customer, bool>? filter = null)
     {
-        return LoadArray().Where(filter).ToList();
+        if(filter != null)
+             return LoadArray().Where(filter).ToList();
+        return LoadArray();
     }
 
     public void Update(Customer item)
@@ -87,6 +90,7 @@ internal class CustomerImplementation : ICustomer
         customers = LoadArray();
         Customer customer = customers.FirstOrDefault(c => c.Id == item.Id);
         Delete(customer.Id);
+        customers.Remove(customer);
         customers.Add(item);
         using (StreamWriter fileStream = new StreamWriter(filePath))
         {

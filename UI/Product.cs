@@ -32,7 +32,7 @@ namespace UI
                 Dock = DockStyle.Fill,
                 AutoGenerateColumns = true,
                 ReadOnly = true,
-                DataSource = _product.ReadAll()
+                DataSource = _product.ReadAll().OrderBy(p => p.Id).ToList()
             };
 
             tabPage1.Controls.Add(grid);
@@ -46,8 +46,14 @@ namespace UI
 
         private void categoryFilter_SelectedIndexChanged(object sender, EventArgs e)
         {
+            if(categoryFilter.SelectedItem == null)
+            {
+                grid.DataSource = null;
+                grid.DataSource = _product.ReadAll().OrderBy(p => p.Id).ToList();
+                return;
+            }
             grid.DataSource = null;
-            grid.DataSource = _product.ReadAll(p => p.Category.ToString() == categoryFilter.SelectedItem.ToString());
+            grid.DataSource = _product.ReadAll(p => p.Category.ToString() == categoryFilter.SelectedItem.ToString()).OrderBy(p => p.Id).ToList();
 
         }
 
@@ -74,9 +80,9 @@ namespace UI
                 MessageBox.Show("Please select product first");
             else
             {
-                var result = MessageBox.Show("Are you sure you want to delete this sale?", 
-                             "Confirm Delete", 
-                             MessageBoxButtons.YesNo, 
+                var result = MessageBox.Show("Are you sure you want to delete this sale?",
+                             "Confirm Delete",
+                             MessageBoxButtons.YesNo,
                              MessageBoxIcon.Question);
                 if (result != DialogResult.Yes)
                     return;
@@ -85,12 +91,12 @@ namespace UI
                 if (categoryFilter.SelectedItem != null)
                 {
                     grid.DataSource = null;
-                    grid.DataSource = _product.ReadAll(p => p.Category.ToString() == categoryFilter.SelectedItem.ToString());
+                    grid.DataSource = _product.ReadAll(p => p.Category.ToString() == categoryFilter.SelectedItem.ToString()).OrderBy(p => p.Id).ToList();
                 }
                 else
                 {
                     grid.DataSource = null;
-                    grid.DataSource = _product.ReadAll();
+                    grid.DataSource = _product.ReadAll().OrderBy(p => p.Id).ToList().OrderBy(p => p.Id).ToList();
                 }
             }
         }
@@ -108,12 +114,12 @@ namespace UI
             if (categoryFilter.SelectedItem != null)
             {
                 grid.DataSource = null;
-                grid.DataSource = _product.ReadAll(p => p.Category.ToString() == categoryFilter.SelectedItem.ToString());
+                grid.DataSource = _product.ReadAll(p => p.Category.ToString() == categoryFilter.SelectedItem.ToString()).OrderBy(p => p.Id).ToList();
             }
             else
             {
                 grid.DataSource = null;
-                grid.DataSource = _product.ReadAll();
+                grid.DataSource = _product.ReadAll().OrderBy(p => p.Id).ToList();
             }
 
         }
@@ -128,6 +134,13 @@ namespace UI
             ProductEditor p = new ProductEditor("UPDATE", (BO.Product)grid.CurrentRow.DataBoundItem);
             p.Show();
             p.FormClosed += UpdateDetails;
+        }
+
+        private void viewAll_Click(object sender, EventArgs e)
+        {
+            categoryFilter.SelectedItem = null;
+            grid.DataSource = null;
+            grid.DataSource = _product.ReadAll().OrderBy(p => p.Id).ToList();
         }
     }
 }

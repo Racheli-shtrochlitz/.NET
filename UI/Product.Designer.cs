@@ -35,6 +35,7 @@
             updateBtn = new Button();
             categoryFilter = new ComboBox();
             filterLable = new Label();
+            viewAll = new Button();
             ProductTable.SuspendLayout();
             SuspendLayout();
             // 
@@ -109,11 +110,22 @@
             filterLable.TabIndex = 5;
             filterLable.Text = "Filter by caterory";
             // 
+            // viewAll
+            // 
+            viewAll.Location = new Point(449, 90);
+            viewAll.Name = "viewAll";
+            viewAll.Size = new Size(127, 25);
+            viewAll.TabIndex = 11;
+            viewAll.Text = "View all";
+            viewAll.UseVisualStyleBackColor = true;
+            viewAll.Click += viewAll_Click;
+            // 
             // Product
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(viewAll);
             Controls.Add(filterLable);
             Controls.Add(categoryFilter);
             Controls.Add(updateBtn);
@@ -136,5 +148,6 @@
         private Button updateBtn;
         private ComboBox categoryFilter;
         private Label filterLable;
+        private Button viewAll;
     }
 }

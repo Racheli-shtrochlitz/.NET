@@ -29,10 +29,10 @@ namespace UI
         }
         private static void createSales()
         {
-            s_bl.Sale.Create(new BO.Sale(0, 10, 1, 41.25, true, new DateOnly(2005, 5, 2), new DateOnly(2006, 5, 2)));
-            s_bl.Sale.Create(new BO.Sale(8, 11, 1, 12.5, false, new DateOnly(2005, 5, 2), new DateOnly(2006, 5, 2)));
-            s_bl.Sale.Create(new BO.Sale(10, 12, 1, 74, true, new DateOnly(2005, 5, 2), new DateOnly(2006, 5, 2)));
-            s_bl.Sale.Create(new BO.Sale(9, 13, 1, 12, false, new DateOnly(2005, 5, 2), new DateOnly(2006, 5, 2)));
+            s_bl.Sale.Create(new BO.Sale(0, 910, 1, 41.25, true, new DateOnly(2005, 5, 2), new DateOnly(2036, 5, 2)));
+            s_bl.Sale.Create(new BO.Sale(8, 920, 1, 12.5, false, new DateOnly(2005, 5, 2), new DateOnly(2036, 5, 2)));
+            s_bl.Sale.Create(new BO.Sale(10, 930, 1, 74, true, new DateOnly(2005, 5, 2), new DateOnly(2036, 5, 2)));
+            s_bl.Sale.Create(new BO.Sale(9, 940, 1, 12, false, new DateOnly(2005, 5, 2), new DateOnly(2036, 5, 2)));
         }
         public static void Initialize()
         {

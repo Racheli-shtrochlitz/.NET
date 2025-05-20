@@ -35,6 +35,7 @@
             updateBtn = new Button();
             addBtn = new Button();
             filterLable = new Label();
+            viewAll = new Button();
             customerTable.SuspendLayout();
             SuspendLayout();
             // 
@@ -108,11 +109,22 @@
             filterLable.TabIndex = 9;
             filterLable.Text = "Filter by id";
             // 
+            // viewAll
+            // 
+            viewAll.Location = new Point(537, 160);
+            viewAll.Name = "viewAll";
+            viewAll.Size = new Size(127, 25);
+            viewAll.TabIndex = 10;
+            viewAll.Text = "View all";
+            viewAll.UseVisualStyleBackColor = true;
+            viewAll.Click += viewAll_Click;
+            // 
             // Customer
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(914, 600);
+            Controls.Add(viewAll);
             Controls.Add(filterLable);
             Controls.Add(addBtn);
             Controls.Add(updateBtn);
@@ -135,5 +147,6 @@
         private Button updateBtn;
         private Button addBtn;
         private Label filterLable;
+        private Button viewAll;
     }
 }

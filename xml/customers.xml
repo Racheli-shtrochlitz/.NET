@@ -13,21 +13,15 @@
     <Phone>05567239854</Phone>
   </Customer>
   <Customer>
-    <Id>2154</Id>
-    <Name>Tamar</Name>
-    <Address>Ramban</Address>
-    <Phone>0527623698</Phone>
-  </Customer>
-  <Customer>
     <Id>9632</Id>
     <Name>Neomi</Name>
     <Address>Maharil</Address>
     <Phone>0583279654</Phone>
   </Customer>
   <Customer>
-    <Id>214</Id>
-    <Name>Shhshi</Name>
-    <Address>Rashi</Address>
-    <Phone>0527695236</Phone>
+    <Id>5</Id>
+    <Name>m</Name>
+    <Address>k</Address>
+    <Phone>555</Phone>
   </Customer>
 </ArrayOfCustomer>
