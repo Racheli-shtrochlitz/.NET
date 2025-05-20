@@ -32,10 +32,10 @@ namespace UI
 
         private void button2_Click(object sender, EventArgs e)//chashier
         {
-            Cashier cashier = new Cashier();
-            cashier.Show();
+            LogIn logIn = new LogIn();
+            logIn.Show();
             this.Hide();
-            cashier.FormClosed += Cashier_FormClosed;
+            logIn.FormClosed += Cashier_FormClosed;
         }
 
         private void Cashier_FormClosed(object? sender, FormClosedEventArgs e)

@@ -16,12 +16,16 @@ namespace UI
         private IOrder _order = BlApi.Factory.Get.Order;
         IProduct _product = BlApi.Factory.Get.Product;
         BO.Order order;
+        bool isClubMember;
         public Cashier(bool isForClub)
         {
             InitializeComponent();
             productsGrid.DataSource = _product.ReadAll();
-            order = new BO.Order(new List<BO.ProductInOrder>(), clubMemberInput.Checked);
+            productsGrid.ReadOnly = true;
+            sales.ReadOnly = true;
+            order = new BO.Order(new List<BO.ProductInOrder>());
             productsInOrderGrid.DataSource = order.ProductsList;
+            isClubMember = isForClub;
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -80,18 +84,36 @@ namespace UI
                 MessageBox.Show($"Invalid quantity. You can order up to {product.Amount} units.");
                 return;
             }
-            _order.AddProductToOrder(order, product.Id, (int)amountInput.Value);
-            productsInOrderGrid.DataSource = order.ProductsList;
-            productsInOrderGrid.Refresh();
+            List<BO.SaleInProduct> salesList = _order.AddProductToOrder(order, product.Id, (int)amountInput.Value, isClubMember);
+            sales.DataSource = null;
+            sales.DataSource = salesList;
+
+            updateProductsInOrder();
+            updateSales();
         }
 
         private void productsInOrderGrid_SelectionChanged(object sender, EventArgs e)
         {
-            addProductInput.Value = ((BO.Product)productsGrid.CurrentRow.DataBoundItem).Id;
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
+
+        }
+        public void updateProductsInOrder()
+        {
+            productsInOrderGrid.DataSource = null;
+            productsInOrderGrid.DataSource = order.ProductsList;
+        }
+        public void updateSales()
+        {
+            //sales.DataSource = null;
+            //sales.DataSource = order.ProductsList.Select(p => p.SalesList).ToList();
+        }
+
+        private void productsGrid_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            addProductInput.Value = ((BO.Product)productsGrid.CurrentRow.DataBoundItem).Id;
 
         }
     }

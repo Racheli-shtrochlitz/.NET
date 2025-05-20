@@ -55,11 +55,11 @@
             finalPriceDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             label5 = new Label();
             label6 = new Label();
-            dataGridView1 = new DataGridView();
-            saleInProductBindingSource = new BindingSource(components);
+            sales = new DataGridView();
             idDataGridViewTextBoxColumn2 = new DataGridViewTextBoxColumn();
             isForClubDataGridViewCheckBoxColumn = new DataGridViewCheckBoxColumn();
             saleBindingSource = new BindingSource(components);
+            saleInProductBindingSource = new BindingSource(components);
             ((System.ComponentModel.ISupportInitialize)addProductInput).BeginInit();
             ((System.ComponentModel.ISupportInitialize)amountInput).BeginInit();
             ((System.ComponentModel.ISupportInitialize)productBindingSource).BeginInit();
@@ -67,9 +67,9 @@
             ((System.ComponentModel.ISupportInitialize)productInOrderBindingSource).BeginInit();
             ((System.ComponentModel.ISupportInitialize)productInOrderBindingSource1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)productsInOrderGrid).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)saleInProductBindingSource).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)sales).BeginInit();
             ((System.ComponentModel.ISupportInitialize)saleBindingSource).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)saleInProductBindingSource).BeginInit();
             SuspendLayout();
             // 
             // label1
@@ -175,6 +175,7 @@
             productsGrid.RowTemplate.Height = 29;
             productsGrid.Size = new Size(262, 141);
             productsGrid.TabIndex = 0;
+            productsGrid.CellContentClick += productsGrid_CellContentClick;
             productsGrid.SelectionChanged += productsGrid_SelectionChanged;
             // 
             // idDataGridViewTextBoxColumn
@@ -298,22 +299,18 @@
             label6.TabIndex = 16;
             label6.Text = "sales in order";
             // 
-            // dataGridView1
+            // sales
             // 
-            dataGridView1.AutoGenerateColumns = false;
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { idDataGridViewTextBoxColumn2, isForClubDataGridViewCheckBoxColumn });
-            dataGridView1.DataSource = saleBindingSource;
-            dataGridView1.Location = new Point(589, 102);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.RowTemplate.Height = 25;
-            dataGridView1.Size = new Size(160, 214);
-            dataGridView1.TabIndex = 17;
-            dataGridView1.CellContentClick += dataGridView1_CellContentClick;
-            // 
-            // saleInProductBindingSource
-            // 
-            saleInProductBindingSource.DataSource = typeof(BO.SaleInProduct);
+            sales.AutoGenerateColumns = false;
+            sales.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            sales.Columns.AddRange(new DataGridViewColumn[] { idDataGridViewTextBoxColumn2, isForClubDataGridViewCheckBoxColumn });
+            sales.DataSource = saleBindingSource;
+            sales.Location = new Point(589, 102);
+            sales.Name = "sales";
+            sales.RowTemplate.Height = 25;
+            sales.Size = new Size(160, 214);
+            sales.TabIndex = 17;
+            sales.CellContentClick += dataGridView1_CellContentClick;
             // 
             // idDataGridViewTextBoxColumn2
             // 
@@ -331,12 +328,16 @@
             // 
             saleBindingSource.DataSource = typeof(BO.Sale);
             // 
+            // saleInProductBindingSource
+            // 
+            saleInProductBindingSource.DataSource = typeof(BO.SaleInProduct);
+            // 
             // Cashier
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(dataGridView1);
+            Controls.Add(sales);
             Controls.Add(label6);
             Controls.Add(label5);
             Controls.Add(productsInOrderGrid);
@@ -358,9 +359,9 @@
             ((System.ComponentModel.ISupportInitialize)productInOrderBindingSource).EndInit();
             ((System.ComponentModel.ISupportInitialize)productInOrderBindingSource1).EndInit();
             ((System.ComponentModel.ISupportInitialize)productsInOrderGrid).EndInit();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
-            ((System.ComponentModel.ISupportInitialize)saleInProductBindingSource).EndInit();
+            ((System.ComponentModel.ISupportInitialize)sales).EndInit();
             ((System.ComponentModel.ISupportInitialize)saleBindingSource).EndInit();
+            ((System.ComponentModel.ISupportInitialize)saleInProductBindingSource).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -393,7 +394,7 @@
         private DataGridViewTextBoxColumn finalPriceDataGridViewTextBoxColumn;
         private Label label5;
         private Label label6;
-        private DataGridView dataGridView1;
+        private DataGridView sales;
         private DataGridViewTextBoxColumn idDataGridViewTextBoxColumn2;
         private DataGridViewCheckBoxColumn isForClubDataGridViewCheckBoxColumn;
         private BindingSource saleBindingSource;

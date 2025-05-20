@@ -55,7 +55,7 @@ namespace BlImplementation
         {
             order.FinalPrice = order.ProductsList.Sum(p => p.FinalPrice);
         }
-        public List<SaleInProduct> AddProductToOrder(Order order, int productId, int amount)
+        public List<SaleInProduct> AddProductToOrder(Order order, int productId, int amount, bool isClubMember)
         {
             Product product = _dal.Product.Read(productId).Convert<DO.Product, BO.Product>();
             ProductInOrder productInOrder = order.ProductsList.Find(p => p.Id == product.Id);
@@ -72,7 +72,7 @@ namespace BlImplementation
                 order.ProductsList.Add(new ProductInOrder(product.Id, null, product.Name, product.Price, product.Amount));
                 productInOrder = order.ProductsList.Find(p => p.Id == product.Id);
             }
-            SearchSaleForProduct(productInOrder, false);
+            SearchSaleForProduct(productInOrder, isClubMember);
             CalcTotalPriceForProduct(productInOrder);
             CalcTotalPrice(order);
             return productInOrder.SalesList;
